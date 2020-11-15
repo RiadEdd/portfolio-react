@@ -1,0 +1,148 @@
+/*
+Test Palette 1 :
+Pantone 4131C : #484B60
+Pantone 532C : #1D1F2A
+Pantone 537C : #BBC7D6
+*/
+
+/*
+Palette 2:
+Beige : #ebe0e0
+Vert foncé : #032e34
+Vert + foncé : #002528
+Vert clair : #014e58
+Vert + clair : #68a0a4
+Rose : #f77d80
+*/
+
+.navbarItems{
+    display:flex;
+    height:80px;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo{
+    font-family: 'Podkova', serif;
+    color:#ebe0e0;
+    justify-self:start;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+.nav-menu{
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+    list-style:none;
+    grid-gap:20px;
+    text-align:center;
+    width:70vw;
+    justify-content:end;
+    margin-right:2rem;
+}
+
+.nav-links{
+    padding:4px 5px;
+    color:rgba(255,255,255,1);
+    text-decoration: none;
+    box-shadow:inset 0 0 0 0 rbga(0,0,0,0);
+    transition:all 0.5s ease-out;
+}
+
+.nav-links:hover{
+    box-shadow:inset 200px 0 0 0 #f77d80; /*Pour l'animation du hover utiliser box shadow plus simple*/
+    color:#ffff;
+    transition: all 0.5s ease-in;
+}
+
+.fa-bars, .fa-times{
+    color:white;
+}
+
+.nav-links-mobile{
+    color:rgba(255,255,255,1);
+    text-decoration: none;
+    border:1px solid rgba(255,255,255,1);
+    padding:6px 5px;
+    border-radius:6px;
+    transition:all 0.5s ease-out;
+}
+
+.nav-links-mobile:hover{
+    color:#484B60;
+    background:#f77d80;
+    border:1px solid #f77d80;
+    transition:all 0.5s ease-in;
+}
+
+.menu-icon{
+    display:none;
+}
+
+@media screen and (max-width:960px){
+    .menu-icon{
+        display:block;
+        position:absolute;
+        top:0;
+        right:0;
+        transform:translate(-100%,60%);
+        font-size:1.8rem;
+        cursor:pointer;
+        z-index:2;
+    }
+
+    .navbarItems{
+        position:relative;
+    }
+
+    .nav-menu{
+        justify-content:center;
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        margin:0;
+        padding:0;
+        top:0px;
+        width:70vw;
+        height:100vh; /*calc(100vh - 80px); /*La taille de l'écran - les 80px de la navbar*/
+        right:-100vw;
+        transition:all 0.5s ease;
+    }
+
+    .nav-menu.active{
+        right:0;
+        background:#68a0a4;
+    }
+
+    .nav-links{
+        /*padding:0; Bien faire attention à remettre 0 au padding quand on veut width 100% pour éviter les overflows*/
+        padding: 5px 0px 5px 0px;
+        margin-bottom:5px;
+        width:100%;
+        text-align:center;
+        display:table;
+        color:#1D1F2A;
+        font-size:1.5rem;
+    }
+
+    .nav-links:hover{ /*Toujours un problème de conflits de couleurs sur le hover ? C'est bleu au début*/
+        transition:all 0.5s ease;
+        background:#032e34; /*Changer la couleur !!*/
+        box-shadow:none;
+    }
+
+    .nav-links-mobile{
+        color:#1D1F2A;
+        border: 1px solid #1D1F2A;
+        font-size:1.5rem;
+    }
+
+
+
+
+
+
+
+
+}

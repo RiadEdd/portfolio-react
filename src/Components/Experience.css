@@ -1,0 +1,86 @@
+.divTitle{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:100%;
+}
+
+.titleText{
+    padding-right:10%; /*Ca semble pas mal, faire des tests*/
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+    color:white;
+    font-size:1.3rem;
+}
+
+hr{
+    margin-right:10px;
+}
+
+.cardsDiv{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom:30px; /*A SUPPR*/
+}
+
+.arrows{
+    color:white;
+    font-size:1.5rem;
+}
+
+.fa-arrow-left{
+    cursor:pointer;
+    padding-right:10px;
+    transition: all 0.3s ease-out;
+}
+
+.fa-arrow-right{
+    cursor:pointer;
+    padding-left:10px;
+    transition: all 0.3s ease-out;
+}
+
+.fa-arrow-right:hover,.fa-arrow-left:hover{
+    color:#68a0a4;
+}
+
+
+.cardDesign{
+    width:clamp(300px,50%,700px);
+    background:white;
+    border-radius:10px;
+    display:flex;
+    box-shadow: 0 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.mainInfos{
+    padding:30px;
+    border-radius:10px 0px 0px 10px;
+    width:clamp(150px,30%,300px);/*A changer*/
+    background: linear-gradient(to right, #f77d80, #f7abac);
+}
+
+.descriptionInfos{
+    padding:10px;
+    width:clamp(150px,70%,400px);
+}
+
+.dates, .companyName{
+    color:rgba(0,0,0,0.7);
+    font-size:1rem;
+}
+
+.jobName{
+    text-shadow: 0px 2px 0px rgba(255,255,255,0.4);
+    margin-top:5px;
+    margin-bottom:5px;
+    color:white;
+    font-size:1.5rem;
+}
+
+.tasks{
+    padding:10px;
+}

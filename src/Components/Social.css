@@ -1,0 +1,35 @@
+.socialList{
+    list-style:none;
+}
+
+.verticalBar{
+    border-left:2px solid white;
+    height:50px;
+    transform:translate(calc(50% - 2px),0);
+    margin-top:20px;
+}
+
+.socialDiv{
+    position:fixed;
+    bottom:0;
+    padding-left:50px;
+}
+
+.socialLink{
+    margin:10px 0px 10px 0px;
+    color:white;
+    font-size:1.4rem;
+    transition:all 0.2s ease-out;
+}
+
+.socialLink:hover{
+    color:#f77d80;
+    transform:translate(0,-2px);
+    transition:all 0.2s ease-in;
+}
+
+@media screen and (max-width:960px){
+    .socialDiv{
+        display:none;
+    }
+}
