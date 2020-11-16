@@ -1,8 +1,8 @@
 export const MenuItems = [
     {
         title:'About',
-        url:'#',
-        cName:'nav-links'
+        url:'#About',
+        cName:'nav-links first-link'
     },
     {
         title:'Experience',

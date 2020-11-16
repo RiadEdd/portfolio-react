@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{ /* SUPPRIMER DES LA FIN DES TESTS --- OU CHANGER*/
   background:#032e34;/*linear-gradient(90deg, rgb(110,94,254), rgba(73,63,252,1) 100%);*/
 }

@@ -50,6 +50,37 @@ class Experience extends Component{
                 </div>
                 <i className="fas fa-arrow-right arrows" onClick={this.carouselClickRight}></i>
             </div>
+
+            <div className="mobileCardsDiv">
+                    {JobItems.map((item,index) => {
+                        return(
+                            <div className="mobileCardDesign">
+                                <div className="mobileInfos">
+                                    <p className="jobName">{item.position}</p>
+                                    <p className="companyName">{item.companyName}</p>
+                                    <p className="dates">{item.dates}</p>
+                                </div>
+                                <div className="mobileDescriptions">
+                                    <p>{item.jobDescription}</p>
+                                </div>
+                            </div>
+                        )
+                    })}
+                    
+                    {/*
+                <div className="mobileCardDesign">
+                    <div className="mobileInfos">
+                        <p className="jobName">Nom du poste</p>
+                        <p className="companyName">Nom de l'entreprise</p>
+                        <p className="dates">Dates du job</p>
+                    </div>
+                    <div className="mobileDescriptions">
+                        <p>Blabla il s'en est passé des trucs durant cette période haha.</p>
+                    </div>
+                </div>
+                    */}
+
+            </div>
             </>
         )
     }

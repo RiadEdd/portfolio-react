@@ -92,27 +92,39 @@ Rose : #f77d80
         z-index:2;
     }
 
+    .menu-icon.active{
+        position:fixed;
+    }
+
     .navbarItems{
         position:relative;
     }
 
     .nav-menu{
-        justify-content:center;
         display:flex;
         flex-direction:column;
-        position:absolute;
+        justify-content:center;
+        align-items:center;
+        position:fixed;
         margin:0;
         padding:0;
-        top:0px;
+        top:0;
         width:70vw;
         height:100vh; /*calc(100vh - 80px); /*La taille de l'écran - les 80px de la navbar*/
         right:-100vw;
         transition:all 0.5s ease;
+        display:none;
     }
 
     .nav-menu.active{
+        z-index:1;
+        display:inline-block;
         right:0;
         background:#68a0a4;
+    }
+
+    .first-link{
+        margin-top:calc(50vh - 2.5 * 40px); /*Calcul très dégueulasse mais qui marche à peu près*/
     }
 
     .nav-links{
@@ -137,6 +149,8 @@ Rose : #f77d80
         border: 1px solid #1D1F2A;
         font-size:1.5rem;
     }
+
+
 
 
 

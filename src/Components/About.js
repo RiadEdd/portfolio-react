@@ -7,7 +7,7 @@ class About extends Component{
         return(
             <div className="aboutDiv">
                 <div className="divHeadText">
-                    <div className="headText"><h2>About me</h2><hr></hr></div>
+                    <div className="headText"><h2 id="About">About me</h2><hr></hr></div>
                 </div>
                 <div className="aboutText">
                     <p className="textDescription">Hi ! I'm Riad, a Computer Science student at INSA Lyon.</p>
@@ -16,7 +16,7 @@ class About extends Component{
                     <p className="textDescription">I also enjoy graphic design, if you're curious, you can always check out my Behance page !</p>
                     <p className="textDescription">Here are a few technologies I've worked with :</p>
                 </div>
-                <ul className="techList">
+                <ul className="techList" data-aos="fade-up" data-aos-duration="1000">
                     {TechItems.map((item,index) => {
                         return(
                             <li key={index}><i className={item.cName}></i></li>
