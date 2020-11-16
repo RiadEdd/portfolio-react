@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { JobItems, MenuItems } from './MenuItems';
+import { MenuItems } from './MenuItems';
 import './Navbar.css'
 
 class Navbar extends Component{
