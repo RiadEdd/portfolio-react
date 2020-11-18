@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.394104fb.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.db39de7e.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.db39de7e.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.22b762af.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.ddc41952.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.ddc41952.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.4296a9ab.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.4296a9ab.js.map",
     "static/css/2.ec02d681.chunk.css": "/portfolio-react/static/css/2.ec02d681.chunk.css",
@@ -10,15 +10,21 @@
     "static/js/2.c9018523.chunk.js.map": "/portfolio-react/static/js/2.c9018523.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/portfolio-react/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.394104fb.chunk.css.map": "/portfolio-react/static/css/main.394104fb.chunk.css.map",
+    "static/css/main.22b762af.chunk.css.map": "/portfolio-react/static/css/main.22b762af.chunk.css.map",
     "static/js/2.c9018523.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.c9018523.chunk.js.LICENSE.txt",
-    "static/media/head-image.0227c090.png": "/portfolio-react/static/media/head-image.0227c090.png"
+    "static/media/FR - CV - EDDAHABI Riad-min.c12e9f65.pdf": "/portfolio-react/static/media/FR - CV - EDDAHABI Riad-min.c12e9f65.pdf",
+    "static/media/head-image.0227c090.png": "/portfolio-react/static/media/head-image.0227c090.png",
+    "static/media/projectConverter.27917c17.jpg": "/portfolio-react/static/media/projectConverter.27917c17.jpg",
+    "static/media/projectFirstPortfolio.6b9414ec.PNG": "/portfolio-react/static/media/projectFirstPortfolio.6b9414ec.PNG",
+    "static/media/projectGamle.76fa8b83.PNG": "/portfolio-react/static/media/projectGamle.76fa8b83.PNG",
+    "static/media/projectMonitoring.90dbcac6.jpg": "/portfolio-react/static/media/projectMonitoring.90dbcac6.jpg",
+    "static/media/projectTravel.9a9ceb94.jpg": "/portfolio-react/static/media/projectTravel.9a9ceb94.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4296a9ab.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.c9018523.chunk.js",
-    "static/css/main.394104fb.chunk.css",
-    "static/js/main.db39de7e.chunk.js"
+    "static/css/main.22b762af.chunk.css",
+    "static/js/main.ddc41952.chunk.js"
   ]
 }
