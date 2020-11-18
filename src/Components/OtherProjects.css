@@ -1,0 +1,68 @@
+.wrapper{
+    margin:100px 0 100px 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperProjects{
+    width:70vw;
+}
+
+.gridProjects{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill,minmax(338px,1fr));
+
+}
+
+.containerProjects{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.cardProject{
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    width:320px;
+    height:300px;
+    background:white;
+    padding:10px;
+    border-radius: 6px;
+    transition: all 0.5s ease-out;
+}
+
+.cardProject:hover{
+    transform:translateY(-10px);
+}
+
+.projectsTitle{
+    font-size:1.2rem;
+}
+
+.projectsTech{
+    font-size:0.75rem;
+}
+
+.projectsDescription{
+    margin-top:10px;
+}
+
+.divLinks{
+    width:100%;
+    height:100%;
+}
+
+.projectsLinks i:first-child{
+    margin-right:10px;
+}
+
+.projectsLinks{
+    font-size:1.4rem;
+    position:relative;
+    left:calc(100% - 53.41px);
+    top:calc(100% - 28px);
+}

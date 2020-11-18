@@ -1,3 +1,10 @@
+import Gamle from '../img/projectGamle.PNG';
+import FirstPortfolio from '../img/projectFirstPortfolio.PNG';
+import Converter from '../img/projectConverter.jpg';
+import Monitoring from '../img/projectMonitoring.jpg';
+import Travel from '../img/projectTravel.jpg';
+import CV from '../staticFiles/FR - CV - EDDAHABI Riad-min.pdf';
+
 export const MenuItems = [
     {
         title:'About',
@@ -6,22 +13,22 @@ export const MenuItems = [
     },
     {
         title:'Experience',
-        url:'#',
+        url:'#Experience',
         cName:'nav-links'
     },
     {
         title:'Work',
-        url:'#',
+        url:'#Projects',
         cName:'nav-links'
     },
     {
         title:'Contact',
-        url:'#',
+        url:'#Contact',
         cName:'nav-links'
     },
     {
         title:'Resume',
-        url:'#',
+        url:CV,
         cName:'nav-links-mobile'
     }
 ]
@@ -89,5 +96,53 @@ export const JobItems = [
         position:'Mechanic Intern',
         dates:'July 2018',
         jobDescription:'Discovering the worker field, and a mechanician job.'
+    }
+]
+
+export const ProjectsItems = [
+    {
+        projectName:'Gamle',
+        projectType:'Web development',
+        techUsed:'HTML CSS Javascript Bootstrap Sparql',
+        github:'#',
+        production:'#',
+        image: Gamle,
+        projectDescription:"A web semantic project. This project is a little search engine that will able you to get some informations about any game you want. It uses DBpedia library data, accessed with some Sparql requests. There's also an API call since DBpedia doesn't have much images"
+    },
+    {
+        projectName:'First Portfolio',
+        projectType:'Web development',
+        techUsed:'HTML CSS Javascript Bootstrap',
+        github:'#',
+        production:'#',
+        image: FirstPortfolio,
+        projectDescription:"This is the first portfolio I've ever done. "
+    },
+    {
+        projectName:'Travel Manager',
+        projectType:'Software development',
+        techUsed:'C++',
+        github:'#',
+        production:'#',
+        image: Travel,
+        projectDescription:"A travel manager in C++. You can import a travel plan from a csv file, and you can edit it (add or delete travels), and generate a new CSV file."
+    },
+    {
+        projectName:'Price Monitor',
+        projectType:'Web scraping',
+        techUsed:'Python BeautifulSoup',
+        github:'#',
+        production:'#',
+        image: Monitoring,
+        projectDescription:"An automate project using Python. It tracks the price of a product (in this case an Amazon Monitor) and sends an email everytime the price drops below a certain price"
+    },
+    {
+        projectName:'Currency Converter',
+        projectType:'Web scraping',
+        techUsed:'Python BeautifulSoup',
+        github:'#',
+        production:'#',
+        image: Converter,
+        projectDescription:"Using Python & BeautifulSoup, you can convert an amount of money in a currency to another currency. The rates come from a website and the data is gathered through web scraping"
     }
 ]

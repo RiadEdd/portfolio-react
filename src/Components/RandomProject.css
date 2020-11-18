@@ -1,0 +1,70 @@
+/*CSS du titre se trouve dans About.css*/
+
+.wrapperProject{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.imgWrapper{
+    border-radius:10px;
+    width:clamp(400px,50%,900px);
+    height:400px;
+    overflow:hidden;
+}
+
+.imgProject{
+    width:100%;
+    height:auto;
+    transition: all 0.5s ease-out;
+}
+
+.imgProject:hover{
+    transform: scale(1.1);
+    /*filter:blur(5px);*/
+}
+
+.projectType{
+    color:white;
+}
+
+.projectName{
+    font-size:1.8rem;
+    color:#f77d80;
+    margin:10px 0 10px 0;
+}
+
+.projectDescription{
+    z-index:3;
+    position:relative;
+    left:clamp(20px,5vh,80px);
+    color:black;
+    width:400px;
+    background:linear-gradient(to right, white, rgb(248,248,248));
+    padding:10px;
+    border-radius:6px;
+    box-shadow: rgba(0,0,0,0.2) 0px 2px;
+}
+
+.techUsed{
+    font-size:0.8rem;
+    color:white;
+    margin:15px 0 10px 0;
+}
+
+.externalLinks{
+    color:white;
+    font-size:1.3rem;
+}
+
+.externalLinks:last-child{
+    margin-left:20px;
+}
+
+@media screen and (max-width:960px){
+    .wrapperProject{
+        display:none;
+    }
+}
